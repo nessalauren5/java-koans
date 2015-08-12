@@ -8,15 +8,15 @@ public class AboutKoans {
 
 	@Koan
 	public void findAboutKoansFile(){
-
+		fail("delete this line");
 	}
-
+	
 	@Koan
 	public void definitionOfKoanCompletion(){
-		boolean koanIsComplete = true;
+		boolean koanIsComplete = false;
 		if(!koanIsComplete){
 			fail("what if koanIsComplete was true?");
 		}
 	}
-
+	
 }
